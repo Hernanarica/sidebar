@@ -78,15 +78,6 @@ input:checked ~ label .brand {
 	color: var(--primary);
 }
 
-.navbar__item--active {
-	background: #C5DCFA;
-	border-top-right-radius: 12px;
-	border-bottom-right-radius: 12px;
-}
-
-.navbar__link--active span {
-	color: var(--primary);
-}
 
 .navbar__link {
 	display: flex;
@@ -101,4 +92,14 @@ input:checked ~ label .brand {
 	font: var(--mobile-body1medium);
 	color: var(--grey);
 	display: none;
+}
+
+.navbar__item--active {
+	background: #C5DCFA;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+
+.navbar__link--active span {
+	color: var(--primary);
 }
