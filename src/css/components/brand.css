@@ -1,0 +1,12 @@
+.brand {
+	display: none;
+	align-items: center;
+	justify-content: center;
+}
+
+.brand__title {
+	font-family: Manrope, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	letter-spacing: 0.005em;
+}

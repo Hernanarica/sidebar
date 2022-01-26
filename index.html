@@ -10,30 +10,53 @@
 	<body>
 		<div class="page">
 			<nav class="navbar">
+				<input type="checkbox" id="menu" name="menu">
 				<label for="menu">
 					<button>
 						<i class="icon__menu"></i>
 					</button>
+					<span class="brand">
+						<img src="./src/assets/imgs/logo.png" alt="logo" width="24" height="24" class="brand__image">
+						<h1 class="brand__title">No te rindas</h1>
+					</span>
 				</label>
-				<input type="checkbox" id="menu" name="menu">
 				<ul class="navbar__items">
-					<li class="navbar__item">
-						<i class="icon__archive"></i>
+					<li class="navbar__item navbar__item--active">
+						<a href="#" class="navbar__link navbar__link--active">
+							<i class="icon__archive"></i>
+							<span>Recibidos</span>
+						</a>
 					</li>
 					<li class="navbar__item">
-						<i class="icon__star"></i>
+						<a href="" class="navbar__link">
+							<i class="icon__star"></i>
+							<span>Destacados</span>
+						</a>
 					</li>
 					<li class="navbar__item">
-						<i class="icon__clock"></i>
+						<a href="" class="navbar__link">
+							<i class="icon__clock"></i>
+							<span>Pospuestos</span>
+						</a>
 					</li>
 					<li class="navbar__item">
-						<i class="icon__send"></i>
+						<a href="" class="navbar__link">
+							<i class="icon__send"></i>
+							<span>Enviados</span>
+						</a>
+					</li>
+					<span class="category">Categorías</span>
+					<li class="navbar__item">
+						<a href="" class="navbar__link">
+							<i class="icon__mail"></i>
+							<span>Todos</span>
+						</a>
 					</li>
 					<li class="navbar__item">
-						<i class="icon__mail"></i>
-					</li>
-					<li class="navbar__item">
-						<i class="icon__trash"></i>
+						<a href="" class="navbar__link">
+							<i class="icon__trash"></i>
+							<span>Papelera</span>
+						</a>
 					</li>
 				</ul>
 			</nav>

@@ -1,5 +1,7 @@
 @import './bootstrapping/bootstrapping.css';
 
 @import './components/navbar.css';
+@import './components/category.css';
+@import './components/brand.css';
 
 @import './view/page.css';
